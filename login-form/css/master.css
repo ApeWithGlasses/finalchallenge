@@ -1,0 +1,188 @@
+body{
+    background-color: #EDEDED;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos de la etiqueta header */
+
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #979797;
+}
+
+body header .container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Tres secciones del header */
+
+/* Sección 1 */
+body header .container .content-img{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-img img{
+    width: 65%;
+}
+
+/* Sección 2 */
+body header .container .content-nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav{
+    width: 100%;
+}
+
+body header .container .content-nav nav ul{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+body header .container .content-nav nav ul li a{
+    background: #ccc;
+    background: radial-gradient(#efbad3, #e2abd9, #c48be5, #ae71ef, #a163f5);
+    font-size: 1.3em;
+    font-family: myriad;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* Sección 3 */
+body header .container .content-icons{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body header .container .content-icons div a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/*main styles*/
+
+.login-box{
+    width: 320px;
+    height: 420px;
+    background: #c48be5;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-top: 70px;
+}
+
+.login-box .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: myriad;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    font-family: louis;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #a163f5;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #EDEDED;
+    color: #a163f5;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: myriad;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #a163f5;
+    font-family: louis;
+}
+
+.login-box a:hover{
+    color: #8033ec;
+}
+
+/* Estilos del footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px #979797;
+    margin-top: 600px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div span{
+    width: 100%;
+    color: darkgray;
+    font-family: louis;
+    font-size: 1.2em;
+    text-align: center;
+}

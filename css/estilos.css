@@ -1,0 +1,331 @@
+body{
+    background-color: #EDEDED;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+main section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de la etiqueta header */
+
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #979797;
+}
+
+body header .container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Tres secciones del header */
+
+/* Sección 1 */
+body header .container .content-img{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-img img{
+    width: 65%;
+}
+
+/* Sección 2 */
+body header .container .content-nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav{
+    width: 100%;
+}
+
+body header .container .content-nav nav ul{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+body header .container .content-nav nav ul li a{
+    background: #ccc;
+    background: radial-gradient(#efbad3, #e2abd9, #c48be5, #ae71ef, #a163f5);
+    font-size: 1.3em;
+    font-family: myriad;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* Sección 3 */
+body header .container .content-icons{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body header .container .content-icons div a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/* main section container 1 */
+
+main section .container:nth-child(1){
+    width: 100%;
+}
+
+main section .container:nth-child(1) div{
+    width: 100%;
+}
+
+body main section .container:nth-child(1) figure{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+body main section .container:nth-child(1) figure img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main section .container:nth-child(1) div:nth-child(2){
+    width: 100%;
+}
+
+body main section .container:nth-child(1) div:nth-child(2){
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+body main section .container:nth-child(1) div:nth-child(3){
+    width: 100%;
+}
+
+body main section .container:nth-child(1) div:nth-child(3){
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* h3 bottons */
+
+.to-get{
+    font-family: myriad;
+    font-size: 50px;
+    letter-spacing: 4px;
+    background: #ccc;
+    background: radial-gradient(#efbad3, #e2abd9, #c48be5, #ae71ef, #a163f5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* bottons */
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    background: #ae71ef;
+    font-family: myriad;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.btn-neon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 1s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#a945c7);
+ }
+ .btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+ #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#a945c7);
+}
+ .btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#a945c7);
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#a945c7);
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+
+/* main section container 2 */
+
+body main section .container:nth-child(2){
+    display: flex;
+    margin-top: 85px;
+}
+
+body main section .container:nth-child(2) div:nth-child(1){
+    width: 100%;
+}
+
+body main section .container:nth-child(2) div:nth-child(1) div{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main section .container:nth-child(2) div:nth-child(1) div:nth-child(1){
+    background-image: url('https://data2.1freewallpapers.com/download/shoes-nike-splashing.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body main section .container:nth-child(2) div:nth-child(2){
+    width: 100%;
+    display: flex;
+}
+
+body main section .container:nth-child(2) div:nth-child(2) div{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body main section .container:nth-child(2) div:nth-child(2) div:nth-child(1){
+    background-image: url('https://data2.1freewallpapers.com/download/nike-id-x-vagrant-sneaker-free-3-0-colors-around-nyc-nike.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section .container:nth-child(2) div h3{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: myriad;
+    letter-spacing: 5px;
+    font-size: 50px;
+    background: #ccc;
+    background: radial-gradient(#efbad3, #e2abd9, #c48be5, #ae71ef, #a163f5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* container 3 */
+
+main section .container:nth-child(3){
+    display: flex;
+    width: 100%;
+}
+
+main section .container:nth-child(3) div{
+    width: 50%;
+}
+
+main section .container:nth-child(3) div h3{
+    text-align: center;
+    font-family: louis;
+    font-size: 20px;
+}
+
+/* Estilos del footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px #979797;
+    margin-top: 50px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div span{
+    width: 100%;
+    color: darkgray;
+    font-family: louis;
+    font-size: 1.2em;
+    text-align: center;
+}
