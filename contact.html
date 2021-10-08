@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/contactcss.css">
     <link rel="stylesheet" href="css/fonts.css">
     <title>Prática final CSS y HTML</title>
 </head>
@@ -42,7 +42,57 @@
     </header>
     <main>
         <section>
-            
+            <div class="hyper-container">
+                <div class="container">
+                    <figure>
+                        <img src="https://www.madecentro.com/skin/frontend/default/madecentro/images/madecentro/contactanos.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="form-box">
+                    <h1>Contáctanos a través del siguiente formulario</h1>
+                    <form>
+                        <!-- TIPO DE SOLICITUD -->
+                        <label for="typere">Tipo de solicitud</label>
+                        <select>
+                            <option disabled selected>Seleccione su tipo de solicitud</option>
+                            <option>Peticiones y sugerencias</option>
+                            <option>Quejas y reclamos</option>
+                        </select>
+
+                        <!-- TIPO DE DOCUMENTO -->
+                        <label for="typeid">Tipo de documento</label>
+                        <select>
+                            <option disabled selected>Seleccione el tipo de documento</option>
+                            <option>Cédula de ciudadanía</option>
+                            <option>Cédula de extranjería</option>
+                            <option>Pasaporte</option>
+                            <option>NIT</option>
+                        </select>
+
+                        <!-- NÚMERO DE DOCUMENTO -->
+                        <label for="idnumber">Número de documento</label>
+                        <input type="text" placeholder="Inserte su número de documento">
+
+                        <!-- NOMBRE Y APELLIDOS -->
+                        <label for="name">Nombres y apellidos</label>
+                        <input type="text" placeholder="Ingrese su nombre y apellido completos">
+                        
+                        <!-- TELÉFONO -->
+                        <label for="phonenumber">Número de teléfono</label>
+                        <input type="text" placeholder="Ingrese su número de contacto">
+
+                        <!-- CORREO -->
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" placeholder="ejemplo: nike@email.com">
+
+                        <!-- COMENTARIOS -->
+                        <label for="comment">Comentarios</label>
+                        <input type="text" placeholder="Redacte sus comentarios" class="comment">
+
+                        <input type="submit" value="ENVIAR">
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
     <footer>

@@ -1,0 +1,179 @@
+body{
+    background-color: #EDEDED;
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px;
+    padding: 0px;
+}
+
+main section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos de la etiqueta header */
+
+body header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #979797;
+}
+
+body header .container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Tres secciones del header */
+
+/* Sección 1 */
+body header .container .content-img{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-img img{
+    width: 65%;
+}
+
+/* Sección 2 */
+body header .container .content-nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav{
+    width: 100%;
+}
+
+body header .container .content-nav nav ul{
+    width: 100%;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body header .container .content-nav nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+
+body header .container .content-nav nav ul li a{
+    background: #ccc;
+    background: radial-gradient(#efbad3, #e2abd9, #c48be5, #ae71ef, #a163f5);
+    font-size: 1.3em;
+    font-family: myriad;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* Sección 3 */
+body header .container .content-icons{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body header .container .content-icons div a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+/*main styles */
+
+body main section .hyper-container{
+    background-color: #fff;
+    margin: 30px;
+}
+
+.form-box{
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.form-box h1{
+    font-family: myriad;
+    font-size: 40px;
+}
+
+.form-box label{
+    font-family: louis;
+    font-size: 20px;
+    color: #000;
+}
+
+.form-box input[type="text"], .form-box input[type="email"], select{
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: louis;
+    font-size: 19px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.form-box input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    background: #EDEDED;
+    color: #000;
+    font-size: 18px;
+    border-radius: 20px;
+    font-family: myriad;
+    margin-bottom: 50px;
+}
+
+.form-box input[type="submit"]:hover{
+    background: #ABABAB;
+    color: #fff;
+}
+
+.comment{
+    min-height: 100px;
+    max-height: 200px;
+    align-items:flex-start;
+}
+
+/* Estilos del footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px #979797;
+    margin-top: 50px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer div{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div span{
+    width: 100%;
+    color: darkgray;
+    font-family: louis;
+    font-size: 1.2em;
+    text-align: center;
+}
