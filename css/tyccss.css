@@ -92,6 +92,22 @@ body header .container .content-icons div a img{
     margin-left: 10px;
 }
 
+/* main styles */
+
+body main section .container h1{
+    font-family: myriad;
+    font-size: 40px;
+    text-align: center;
+    background: radial-gradient(#efbad3, #e2abd9, #c48be5, #ae71ef, #a163f5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+body main section .container h3{
+    font-family: louis;
+    font-size: 25px;
+}
+
 /* Estilos del footer */
 footer{
     width: 100%;
