@@ -92,44 +92,66 @@ body header .container .content-icons div a img{
     margin-left: 10px;
 }
 
-/*main section */
+/*main styles */
 
-body main section .container{
-    display: flex;
+body main section .hyper-container{
+    background-color: #fff;
+    margin: 30px;
 }
 
-body main section .container div{
-    width: 100%;
-    margin-left: 60px;
-    margin-right: 60px;
+.form-box{
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    box-sizing: border-box;
 }
 
-body main section .container div h1{
-    font-size: 35px;
+.form-box h1{
     font-family: myriad;
+    font-size: 40px;
+    background: radial-gradient(#efbad3, #e2abd9, #c48be5, #ae71ef, #a163f5);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
-body main section .container div h3{
-    font-size: 25px;
+.form-box label{
     font-family: louis;
+    font-size: 20px;
+    color: #000;
 }
 
-body main section .container:nth-child(2) div{
-    text-align: right;
-    margin-right: 60px;
-    margin-top: 45px;
+.form-box input[type="text"], .form-box input[type="email"], select{
+    width: 100%;
+    margin-bottom: 40px;
+    font-family: louis;
+    font-size: 19px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #000;
 }
 
-body main section .container:nth-child(3) div{
-    margin-top: 45px;
-    margin-right: 60px;
-}
-
-body main section .container:nth-child(3) div h2{
-    margin-top: 90px;
+.form-box input[type="submit"]{
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 40px;
+    background: #EDEDED;
+    color: #a163f5;
+    font-size: 18px;
+    border-radius: 20px;
     font-family: myriad;
-    font-size: 80px;
-    text-align: center;
+    margin-bottom: 50px;
+}
+
+.form-box input[type="submit"]:hover{
+    background: #a163f5;
+    color: #EDEDED;
+}
+
+.comment{
+    min-height: 100px;
+    max-height: 200px;
+    align-items:flex-start;
 }
 
 /* Estilos del footer */

@@ -86,8 +86,8 @@ body header .container .content-icons div a img{
 .login-box{
     width: 320px;
     height: 420px;
-    background: #c48be5;
-    color: #fff;
+    background: #fff;
+    color: #c48be5;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -146,6 +146,11 @@ body header .container .content-icons div a img{
     font-size: 18px;
     border-radius: 20px;
     font-family: myriad;
+}
+
+.login-box input[type="submit"]:hover{
+    background: #a163f5;
+    color: #EDEDED;
 }
 
 .login-box a{
